@@ -1,1 +1,1 @@
-SUBDIRS = libprocess
+SUBDIRS = libprocess-0.0.1

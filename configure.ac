@@ -42,6 +42,8 @@ AC_SUBST(CONFIGURE_ARGS)
 AC_CONFIG_FILES([Makefile])
 AC_CONFIG_FILES([third_party/Makefile])
 
+AC_CONFIG_SUBDIRS([third_party/libprocess-0.0.1])
+
 AC_ARG_ENABLE([install],
               AS_HELP_STRING([--enable-install],
                              [install minotaur]),
